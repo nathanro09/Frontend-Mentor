@@ -1,0 +1,147 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Outfit:wght@300;400;600&display=swap');
+
+  .container {
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    margin-top: 2rem;
+    transform: translate(-50%, -50%);
+  }
+
+    .card {
+      border-radius: 1rem;
+      padding: 1.25rem;
+      margin-bottom: 2rem;
+      height: 525px;
+      width: 300px;
+      box-shadow: 
+      .5rem 0 1rem rgba(0, 0, 0, .2),
+      -.5rem 0 1rem rgba(0, 0, 0, .2),
+      0 .5rem .75rem rgba(0, 0, 0, .4),
+      0 1rem 1rem rgba(0, 0, 0, .2);
+      background-color: hsl(216, 50%, 16%);
+    }
+
+      .card-image {
+        position: relative;
+      }
+
+      .img {
+        border-radius: 0.5rem;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 99%;
+        width: 100%;
+        opacity: 0;
+        transition: .25s ease-in;
+        background-color: hsla(178, 100%, 50%, .5);
+        border-radius: .5rem;
+      }
+
+      .overlay:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+
+        #view-icon {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+    .card-header {
+      margin: 1rem 0;
+      font-family: "Outfit";
+      font-size: 22px;
+      font-weight: 600;
+      -webkit-text-fill-color: hsl(0, 0%, 100%);
+    }
+
+      .equilibrium {
+        -webkit-text-fill-color: hsl(0, 0%, 100%);
+      }
+
+      .equilibrium:hover {
+        cursor: pointer;
+        -webkit-text-fill-color: hsl(178, 100%, 50%);
+      }
+
+    .card-body {
+      font-family: "Outfit";
+      font-size: 18px;
+      font-weight: 300;
+      -webkit-text-fill-color: hsla(0, 0%, 100%, .5);
+    }
+
+    .card-misc {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 1rem 0;
+      font-family: "Outfit";
+      text-align: center;
+    }
+
+      .card-misc--val {
+        font-weight: 600;
+        -webkit-text-fill-color: hsl(178, 100%, 50%);
+      }
+
+        .eth-icon {
+          vertical-align: middle;
+          margin-right: 0.2rem;
+          margin-bottom: 0.25rem;
+        }
+
+      .card-misc--time {
+        font-weight: 300;
+        -webkit-text-fill-color: hsl(215, 51%, 70%);
+      }
+
+        .time-icon {
+          vertical-align: middle;
+          margin-right: 0.2rem;
+          margin-bottom: 0.25rem;
+        }
+
+    .card-footer {
+      border-top: 1px solid hsla(0, 0%, 100%, .25);
+      font-family: "Outfit";
+      font-weight: 300;
+      -webkit-text-fill-color: hsla(0, 0%, 100%, .5);
+    }
+
+      .footer-content {
+        display: flex;
+        margin-top: 1rem;
+      }
+
+        .avatar-icon {
+          border: 1px solid white;
+          border-radius: 1rem;
+          vertical-align: middle;
+          margin-right: 1rem;
+        }
+
+        .footer-text {
+          margin: auto 0;
+          text-align: center;
+        }
+
+          .jules {
+            font-weight: 400;
+            -webkit-text-fill-color: hsl(0, 0%, 100%);
+          }
+
+          .jules:hover {
+            cursor: pointer;
+            -webkit-text-fill-color: hsl(178, 100%, 50%);
+          }
