@@ -60,7 +60,7 @@
     .card-header {
       margin: 1rem 0;
       font-family: "Outfit";
-      font-size: 22px;
+      font-size: calc(22 / 16 * 1rem);
       font-weight: 600;
       -webkit-text-fill-color: hsl(0, 0%, 100%);
     }
@@ -76,7 +76,7 @@
 
     .card-body {
       font-family: "Outfit";
-      font-size: 18px;
+      font-size: calc(18 / 16 * 1rem);
       font-weight: 300;
       -webkit-text-fill-color: hsla(0, 0%, 100%, .5);
     }
